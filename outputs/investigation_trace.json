@@ -1,0 +1,348 @@
+[
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-93"
+    },
+    "duration_ms": 877.6,
+    "output_summary": "{'jira_key': 'SCRUM-93', 'source_id': 'REQ-01', 'summary': '[REQ-01] Automated regression tests', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-01', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-01\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-01\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: All automated regression cases must pass on the target build.', 'linked_issues': "
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-320"
+    },
+    "duration_ms": 862.7,
+    "output_summary": "{'jira_key': 'SCRUM-320', 'source_id': 'REC-2081', 'summary': '[REC-2081] Regression run - Automated regression tests', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-2081', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-2081\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: In Progress\\n----------------------------------------\\nEngineering record: Regression run - Automated regression tests.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-93', 'summary': '[REQ-01] Automated regression te"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-134"
+    },
+    "duration_ms": 735.8,
+    "output_summary": "{'jira_key': 'SCRUM-134', 'source_id': 'REC-2299', 'summary': '[REC-2299] Regression run (earlier build) - Automated regression tests', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-2299', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-2299\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Regression run (earlier build) - Automated regression tests.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-93', 'summary': '[REQ-01"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-267"
+    },
+    "duration_ms": 1281.1,
+    "output_summary": "{'jira_key': 'SCRUM-267', 'source_id': 'REQ-02', 'summary': '[REQ-02] Customer document isolation', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-02', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-02\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-02\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: Every isolation case must pass; any confirmed cross-customer document exposure "
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-222"
+    },
+    "duration_ms": 771.8,
+    "output_summary": "{'jira_key': 'SCRUM-222', 'source_id': 'REC-5825', 'summary': '[REC-5825] Isolation verification - Customer document isolation', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-5825', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-5825\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Isolation verification - Customer document isolation.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-267', 'summary': '[REQ-02] Customer do"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-310"
+    },
+    "duration_ms": 834.4,
+    "output_summary": "{'jira_key': 'SCRUM-310', 'source_id': 'REC-1001', 'summary': '[REC-1001] Isolation retest - Customer document isolation', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-1001', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-1001\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: To Do\\n----------------------------------------\\nEngineering record: Isolation retest - Customer document isolation.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-267', 'summary': '[REQ-02] Customer document isol"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-229"
+    },
+    "duration_ms": 772.2,
+    "output_summary": "{'jira_key': 'SCRUM-229', 'source_id': 'REQ-03', 'summary': '[REQ-03] Answer quality for deployed prompt', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-03', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-03\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-03\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: The approved quality evaluation must achieve at least 90 percent and mat"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-218"
+    },
+    "duration_ms": 1210.9,
+    "output_summary": "{'jira_key': 'SCRUM-218', 'source_id': 'REC-1600', 'summary': '[REC-1600] Answer quality evaluation (pre-release build) - Answer quality for deployed prompt', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-1600', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-1600\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Answer quality evaluation (pre-release build) - Answer quality for deployed prompt.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-30"
+    },
+    "duration_ms": 971.6,
+    "output_summary": "{'jira_key': 'SCRUM-30', 'source_id': 'REC-4323', 'summary': '[REC-4323] Answer quality evaluation - Answer quality for deployed prompt', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-4323', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-4323\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Answer quality evaluation - Answer quality for deployed prompt.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-229', 'summary': '["
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-364"
+    },
+    "duration_ms": 1282.1,
+    "output_summary": "{'jira_key': 'SCRUM-364', 'source_id': 'MANIFEST', 'summary': '[MANIFEST] Release manifest for atlas-assistant R2.4', 'labels': ['rel-R2.4', 'rr-manifest', 'source-MANIFEST', 'tyn-release-assessment-v2'], 'description': 'Source ID: MANIFEST\\nKind: manifest\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nFictional assessment data.\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nAssessment rules for this fictional release:\\nAssess the twelve linked requirement records, not e"
+  },
+  {
+    "tool": "search_scoped_issues",
+    "input": {
+      "keyword": "p6"
+    },
+    "duration_ms": 2236.5,
+    "output_summary": "[{'jira_key': 'SCRUM-402', 'source_id': 'REC-1648', 'summary': '[REC-1648] Queue adapter: support-widget R2.1'}, {'jira_key': 'SCRUM-401', 'source_id': 'REC-3249', 'summary': '[REC-3249] Rollback: atlas-assistant R2.1'}, {'jira_key': 'SCRUM-391', 'source_id': 'REC-4535', 'summary': '[REC-4535] Customer document isolation: billing-console R2.3'}, {'jira_key': 'SCRUM-385', 'source_id': 'REC-6260', 'summary': '[REC-6260] Answer quality: billing-console R2.3'}, {'jira_key': 'SCRUM-384', 'source_id': 'REC-5784', 'summary': '[REC-5784] Regression tests: support-widget R2.1'}, {'jira_key': 'SCRUM-381"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-57"
+    },
+    "duration_ms": 960.6,
+    "output_summary": "{'jira_key': 'SCRUM-57', 'source_id': 'REQ-04', 'summary': '[REQ-04] Response latency', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-04', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-04\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-04\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: The production-equivalent target-build p95 response time must be at most 2.0 seconds.', 'li"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-154"
+    },
+    "duration_ms": 813.2,
+    "output_summary": "{'jira_key': 'SCRUM-154', 'source_id': 'REC-6024', 'summary': '[REC-6024] Performance run - Response latency', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-6024', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-6024\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: In Progress\\n----------------------------------------\\nEngineering record: Performance run - Response latency.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-57', 'summary': '[REQ-04] Response latency'}], 'total_comments': 5,"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-343"
+    },
+    "duration_ms": 795.7,
+    "output_summary": "{'jira_key': 'SCRUM-343', 'source_id': 'REC-1028', 'summary': '[REC-1028] Performance run (staging) - Response latency', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-1028', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-1028\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Performance run (staging) - Response latency.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-57', 'summary': '[REQ-04] Response latency'}, {'direct"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-356"
+    },
+    "duration_ms": 799.1,
+    "output_summary": "{'jira_key': 'SCRUM-356', 'source_id': 'REQ-05', 'summary': '[REQ-05] Model usage cost', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-05', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-05\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-05\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: Mean model cost per successful request must be at most USD 0.012 using the exercise rate c"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-228"
+    },
+    "duration_ms": 970.3,
+    "output_summary": "{'jira_key': 'SCRUM-228', 'source_id': 'REC-5716', 'summary': '[REC-5716] Cost run - Model usage cost', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-5716', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-5716\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: To Do\\n----------------------------------------\\nEngineering record: Cost run - Model usage cost.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-356', 'summary': '[REQ-05] Model usage cost'}], 'total_comments': 5, 'comments_truncate"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-66"
+    },
+    "duration_ms": 770.3,
+    "output_summary": "{'jira_key': 'SCRUM-66', 'source_id': 'REC-7454', 'summary': '[REC-7454] Cost run (previous release) - Model usage cost', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-7454', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-7454\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Cost run (previous release) - Model usage cost.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-356', 'summary': '[REQ-05] Model usage cost'}], 'to"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-78"
+    },
+    "duration_ms": 883.8,
+    "output_summary": "{'jira_key': 'SCRUM-78', 'source_id': 'REQ-06', 'summary': '[REQ-06] Production security approval', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-06', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-06\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-06\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: Security Owner Asha Rao must explicitly approve this release and commit for pro"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-184"
+    },
+    "duration_ms": 962.0,
+    "output_summary": "{'jira_key': 'SCRUM-184', 'source_id': 'REC-2828', 'summary': '[REC-2828] Security approval - Production security approval', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-2828', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-2828\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Security approval - Production security approval.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-78', 'summary': '[REQ-06] Production security "
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-123"
+    },
+    "duration_ms": 961.4,
+    "output_summary": "{'jira_key': 'SCRUM-123', 'source_id': 'REC-8074', 'summary': '[REC-8074] Release sign-off - Production security approval', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-8074', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-8074\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Release sign-off - Production security approval.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-78', 'summary': '[REQ-06] Production security ap"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-333"
+    },
+    "duration_ms": 904.4,
+    "output_summary": "{'jira_key': 'SCRUM-333', 'source_id': 'REQ-07', 'summary': '[REQ-07] Sensitive log redaction', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-07', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-07\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-07\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: QA must verify that sensitive identifiers are redacted on the target build.', 'link"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-400"
+    },
+    "duration_ms": 1019.3,
+    "output_summary": "{'jira_key': 'SCRUM-400', 'source_id': 'REC-9745', 'summary': '[REC-9745] Redaction retest - Sensitive log redaction', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-9745', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-9745\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Redaction retest - Sensitive log redaction.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-333', 'summary': '[REQ-07] Sensitive log redaction'}], 'to"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-53"
+    },
+    "duration_ms": 956.1,
+    "output_summary": "{'jira_key': 'SCRUM-53', 'source_id': 'REC-6499', 'summary': '[REC-6499] Redaction check (support widget) - Sensitive log redaction', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-6499', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-6499\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Redaction check (support widget) - Sensitive log redaction.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-333', 'summary': '[REQ-07] "
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-52"
+    },
+    "duration_ms": 848.3,
+    "output_summary": "{'jira_key': 'SCRUM-52', 'source_id': 'REQ-08', 'summary': '[REQ-08] Human handoff delivery', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-08', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-08\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-08\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: When an answer is escalated, a handoff must reach the support queue, including its li"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-346"
+    },
+    "duration_ms": 960.3,
+    "output_summary": "{'jira_key': 'SCRUM-346', 'source_id': 'REC-4076', 'summary': '[REC-4076] Handoff implementation - Human handoff delivery', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-4076', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-4076\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Handoff implementation - Human handoff delivery.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-52', 'summary': '[REQ-08] Human handoff delivery"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-79"
+    },
+    "duration_ms": 928.6,
+    "output_summary": "{'jira_key': 'SCRUM-79', 'source_id': 'REC-9635', 'summary': '[REC-9635] Queue adapter verification - Human handoff delivery', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-9635', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-9635\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: To Do\\n----------------------------------------\\nEngineering record: Queue adapter verification - Human handoff delivery.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-346', 'summary': '[REC-4076] Handoff imp"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-147"
+    },
+    "duration_ms": 909.7,
+    "output_summary": "{'jira_key': 'SCRUM-147', 'source_id': 'REQ-09', 'summary': '[REQ-09] Rollback rehearsal', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-09', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-09\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-09\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: An approved rollback rehearsal must succeed on the target release and production configu"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-109"
+    },
+    "duration_ms": 796.3,
+    "output_summary": "{'jira_key': 'SCRUM-109', 'source_id': 'REC-6011', 'summary': '[REC-6011] Rollback rehearsal - Rollback rehearsal', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-6011', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-6011\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Rollback rehearsal - Rollback rehearsal.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-147', 'summary': '[REQ-09] Rollback rehearsal'}], 'total_comment"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-178"
+    },
+    "duration_ms": 874.6,
+    "output_summary": "{'jira_key': 'SCRUM-178', 'source_id': 'REC-6198', 'summary': '[REC-6198] Rollback rehearsal (second team) - Rollback rehearsal', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-6198', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-6198\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Rollback rehearsal (second team) - Rollback rehearsal.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-147', 'summary': '[REQ-09] Rollback "
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-61"
+    },
+    "duration_ms": 1134.6,
+    "output_summary": "{'jira_key': 'SCRUM-61', 'source_id': 'REQ-10', 'summary': '[REQ-10] Document parsing completeness', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-10', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-10\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-10\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: The target build must pass all 60 mandatory document parsing cases.', 'linked_"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-13"
+    },
+    "duration_ms": 783.7,
+    "output_summary": "{'jira_key': 'SCRUM-13', 'source_id': 'REC-9611', 'summary': '[REC-9611] Document parsing verification - Document parsing completeness', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-9611', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-9611\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Document parsing verification - Document parsing completeness.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-61', 'summary': '[REQ"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-166"
+    },
+    "duration_ms": 870.7,
+    "output_summary": "{'jira_key': 'SCRUM-166', 'source_id': 'REQ-11', 'summary': '[REQ-11] Accessible keyboard handoff', 'labels': ['rel-R2.4', 'rr-requirement', 'source-REQ-11', 'tyn-release-assessment-v2'], 'description': 'Source ID: REQ-11\\nKind: requirement\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nRequirement ID: REQ-11\\nTarget: {\"release\": \"R2.4\", \"commit\": \"b7a91f2\", \"prompt\": \"p7\", \"environment\": \"production\", \"service\": \"atlas-assistant\"}\\nMandatory: yes\\nAcceptance criterion: QA must verify keyboard navigation and focus handling for the handoff interface"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-263"
+    },
+    "duration_ms": 944.7,
+    "output_summary": "{'jira_key': 'SCRUM-263', 'source_id': 'REC-8515', 'summary': '[REC-8515] Keyboard implementation - Accessible keyboard handoff', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-8515', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-8515\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Keyboard implementation - Accessible keyboard handoff.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-166', 'summary': '[REQ-11] Accessibl"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-106"
+    },
+    "duration_ms": 956.6,
+    "output_summary": "{'jira_key': 'SCRUM-106', 'source_id': 'REC-8801', 'summary': '[REC-8801] Keyboard navigation QA - Accessible keyboard handoff', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-8801', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-8801\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: Done\\n----------------------------------------\\nEngineering record: Keyboard navigation QA - Accessible keyboard handoff.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-166', 'summary': '[REQ-11] Accessible "
+  },
+  {
+    "tool": "search_scoped_issues",
+    "input": {
+      "keyword": "KBD-210"
+    },
+    "duration_ms": 418.0,
+    "output_summary": "[{'jira_key': 'SCRUM-106', 'source_id': 'REC-8801', 'summary': '[REC-8801] Keyboard navigation QA - Accessible keyboard handoff'}]"
+  },
+  {
+    "tool": "search_scoped_issues",
+    "input": {
+      "keyword": "handoff"
+    },
+    "duration_ms": 476.8,
+    "output_summary": "[{'jira_key': 'SCRUM-346', 'source_id': 'REC-4076', 'summary': '[REC-4076] Handoff implementation - Human handoff delivery'}, {'jira_key': 'SCRUM-263', 'source_id': 'REC-8515', 'summary': '[REC-8515] Keyboard implementation - Accessible keyboard handoff'}, {'jira_key': 'SCRUM-166', 'source_id': 'REQ-11', 'summary': '[REQ-11] Accessible keyboard handoff'}, {'jira_key': 'SCRUM-106', 'source_id': 'REC-8801', 'summary': '[REC-8801] Keyboard navigation QA - Accessible keyboard handoff'}, {'jira_key': 'SCRUM-79', 'source_id': 'REC-9635', 'summary': '[REC-9635] Queue adapter verification - Human hand"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-79"
+    },
+    "duration_ms": 927.6,
+    "output_summary": "{'jira_key': 'SCRUM-79', 'source_id': 'REC-9635', 'summary': '[REC-9635] Queue adapter verification - Human handoff delivery', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-9635', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-9635\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: To Do\\n----------------------------------------\\nEngineering record: Queue adapter verification - Human handoff delivery.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-346', 'summary': '[REC-4076] Handoff imp"
+  },
+  {
+    "tool": "search_scoped_issues",
+    "input": {
+      "keyword": "Keyboard"
+    },
+    "duration_ms": 942.4,
+    "output_summary": "[{'jira_key': 'SCRUM-389', 'source_id': 'REC-8926', 'summary': '[REC-8926] Keyboard navigation: support-widget R2.3'}, {'jira_key': 'SCRUM-372', 'source_id': 'REC-4425', 'summary': '[REC-4425] Keyboard navigation: warehouse-agent R2.2'}, {'jira_key': 'SCRUM-370', 'source_id': 'REC-9219', 'summary': '[REC-9219] Keyboard navigation: billing-console R2.3'}, {'jira_key': 'SCRUM-369', 'source_id': 'REC-1516', 'summary': '[REC-1516] Keyboard navigation: atlas-assistant R2.3'}, {'jira_key': 'SCRUM-355', 'source_id': 'REC-4343', 'summary': '[REC-4343] Keyboard navigation: support-widget R2.4'}, {'jira"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-224"
+    },
+    "duration_ms": 1206.2,
+    "output_summary": "{'jira_key': 'SCRUM-224', 'source_id': 'REC-9707', 'summary': '[REC-9707] Keyboard navigation: atlas-assistant R2.4', 'labels': ['rel-R2.4', 'rr-work', 'source-REC-9707', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-9707\\nKind: work\\nRecord Release: R2.4\\nRecorded Jira Status: In Progress\\n----------------------------------------\\nEngineering record: Keyboard navigation: atlas-assistant R2.4.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-399', 'summary': '[REC-3272] Document parsing: support-widget"
+  },
+  {
+    "tool": "get_issue_details",
+    "input": {
+      "identifier": "SCRUM-322"
+    },
+    "duration_ms": 879.0,
+    "output_summary": "{'jira_key': 'SCRUM-322', 'source_id': 'REC-5957', 'summary': '[REC-5957] Streaming QA verification - Streaming completion integrity', 'labels': ['rel-R2.4', 'rr-evidence', 'source-REC-5957', 'tyn-release-assessment-v2'], 'description': 'Source ID: REC-5957\\nKind: evidence\\nRecord Release: R2.4\\nRecorded Jira Status: To Do\\n----------------------------------------\\nEngineering record: Streaming QA verification - Streaming completion integrity.\\nScope, results and approvals are recorded in the comments.', 'linked_issues': [{'direction': 'relates to', 'jira_key': 'SCRUM-404', 'summary': '[REQ-12"
+  },
+  {
+    "tool": "get_issue_comments_page",
+    "input": {
+      "identifier": "SCRUM-322",
+      "start_at": 60,
+      "limit": 20
+    },
+    "duration_ms": 366.4,
+    "output_summary": "{'jira_key': 'SCRUM-322', 'start_at': 60, 'total': 64, 'comments': ['Recorded event 2026-11-07T10:59:00+05:30 | actor Mia Chen | role Coordinator\\nStreaming investigation note 60: checking buffering and UI rendering.', 'Recorded event 2026-11-07T10:00:00+05:30 | actor Mia Chen | role Coordinator\\nStreaming investigation note 61: checking buffering and UI rendering.', 'Recorded event 2026-11-07T10:01:00+05:30 | actor Mia Chen | role Coordinator\\nStreaming investigation note 62: checking buffering and UI rendering.', 'Recorded event 2026-11-08T14:00:00+05:30 | actor Priya Nair | role QA Lead\\nSt"
+  },
+  {
+    "tool": "search_scoped_issues",
+    "input": {
+      "keyword": "STREAM-731"
+    },
+    "duration_ms": 451.0,
+    "output_summary": "[{'jira_key': 'SCRUM-322', 'source_id': 'REC-5957', 'summary': '[REC-5957] Streaming QA verification - Streaming completion integrity'}]"
+  },
+  {
+    "tool": "search_scoped_issues",
+    "input": {
+      "keyword": "STREAM-50"
+    },
+    "duration_ms": 414.6,
+    "output_summary": "[{'jira_key': 'SCRUM-322', 'source_id': 'REC-5957', 'summary': '[REC-5957] Streaming QA verification - Streaming completion integrity'}]"
+  }
+]

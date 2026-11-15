@@ -1,0 +1,11 @@
+{
+  "project_key": "SCRUM",
+  "dataset_label": "tyn-release-assessment-v2",
+  "target_release": "R2.4",
+  "overall_decision": "BLOCKED",
+  "model": "gemini-flash-lite-latest",
+  "execution_time_seconds": 242.73,
+  "input_tokens": 45698,
+  "output_tokens": 3415,
+  "total_tool_calls": 43
+}
