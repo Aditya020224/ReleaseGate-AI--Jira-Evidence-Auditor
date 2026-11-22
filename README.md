@@ -1,4 +1,4 @@
-# Jira Release Evidence Agent
+# ReleaseGate AI: Jira Evidence Auditor
 A tool-using AI agent that investigates release evidence stored in Jira Cloud and produces an evidence-backed 
 release-readiness decision.
 
